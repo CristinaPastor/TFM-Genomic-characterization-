@@ -10,6 +10,8 @@ Somatic variant data are processed following this general workflow:
 
 VCF --> MAF --> TMB calculation --> Visualization and statistical analysis
 
+![workflow](./images/workflow.png)
+
 No variant calling was performed as part of this project.
 
 ## Repository structure
