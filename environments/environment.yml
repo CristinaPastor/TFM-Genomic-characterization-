@@ -1,0 +1,26 @@
+name: impact_vuscan
+channels:
+  - bioconda
+  - r
+  - conda-forge
+dependencies:
+  - python=3.10
+  - bioconda::bioconductor-maftools
+  - pysam
+  - r-devtools
+  - bioconductor-genomicranges
+  - r-plotly
+  - r-htmlwidgets
+  - r-readr
+  - r-tidyverse
+  - r-rcolorbrewer
+  - r-car
+  - r-rstatix
+  - conda-forge::r-nortest
+  - conda-forge::r-ggpubr
+  - r-fsa
+  - samtools
+  - bioconda::bioconductor-complexheatmap
+  - bioconda::bioconductor-bsgenome.hsapiens.ucsc.hg38
+  - anaconda::pandas
+prefix: /home/cpastor/miniforge3/envs/impact_vuscan
