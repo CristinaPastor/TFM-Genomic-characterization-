@@ -14,20 +14,24 @@ No variant calling was performed as part of this project.
 
 ## Repository structure
 
-clinical_data/
+#### clinical_data/
+
 Scripts for cleaning, modifying and enriching the clinical data table.
 
-vcf2maf/
+#### vcf2maf/
+
 Pipeline to convert somatic VCF files into MAF format using `vcf2maf`
 
-TMB/
+#### TMB/
+
 Scripts related to Tumor Mutational Burden analysis:
 - Filtering of non-synonymous mutations
 - TMB calculation pipelines (maftools and mutscape)
 - Manual corrections and annotations
 - Statistical analysis of TMB values
 
-plots_scripts/
+#### plots_scripts/
+
 Scripts for graphical representations, including:
 - Cohort overview plots
 - Tumor type and subtype distribution
@@ -38,7 +42,8 @@ Scripts for graphical representations, including:
 - Somatic interaction plots
 - Variant Allele Frequency (VAF) plots
 
-environments/
+#### environments/
+
 - environment.yml: minimal environment
 - environment_full.yml: full environment with all dependencies
 
